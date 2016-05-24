@@ -11,6 +11,9 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+
+//        [[NSUserDefaults standardUserDefaults] setObject:@[@"en"] forKey:@"AppleLanguages"];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

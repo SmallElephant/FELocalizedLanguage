@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "NSBundle+Language.h"
+#import "FELanguageManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self loadRootViewController];
+    self.window.backgroundColor=[UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -41,5 +49,21 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+#pragma mark - RootViewController
+
+-(void)loadRootViewController{
+    ViewController *rootController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ViewController"];
+    self.window.rootViewController=rootController;
+}
+
+#pragma mark - Public
+
+-(void)reloadRootContoller:(NSString *)code{
+//    self.window.rootViewController=nil;
+    [NSBundle setLanguage:code];
+    [self loadRootViewController];
+}
+
 
 @end

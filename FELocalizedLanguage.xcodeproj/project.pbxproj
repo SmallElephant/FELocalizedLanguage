@@ -15,6 +15,10 @@
 		A816E6801CF32F0C00EB5335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A816E67E1CF32F0C00EB5335 /* LaunchScreen.storyboard */; };
 		A816E68B1CF32F0C00EB5335 /* FELocalizedLanaguageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A816E68A1CF32F0C00EB5335 /* FELocalizedLanaguageTests.m */; };
 		A816E6961CF32F0D00EB5335 /* FELocalizedLanaguageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A816E6951CF32F0D00EB5335 /* FELocalizedLanaguageUITests.m */; };
+		A816E6A51CF3338500EB5335 /* DetialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A816E6A41CF3338500EB5335 /* DetialViewController.m */; };
+		A816E6A81CF3340200EB5335 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A816E6AA1CF3340200EB5335 /* Localizable.strings */; };
+		A893F7771CF3F93D006750CA /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = A893F7761CF3F93D006750CA /* NSBundle+Language.m */; };
+		A893F77A1CF3FD32006750CA /* FELanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A893F7791CF3FD32006750CA /* FELanguageManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A816E66D1CF32F0C00EB5335 /* FELocalizedLanaguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FELocalizedLanaguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A816E66D1CF32F0C00EB5335 /* FELocalizedLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FELocalizedLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A816E6711CF32F0C00EB5335 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A816E6731CF32F0C00EB5335 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A816E6741CF32F0C00EB5335 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +49,20 @@
 		A816E67C1CF32F0C00EB5335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A816E67F1CF32F0C00EB5335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A816E6811CF32F0C00EB5335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A816E6861CF32F0C00EB5335 /* FELocalizedLanaguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FELocalizedLanaguageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A816E6861CF32F0C00EB5335 /* FELocalizedLanguage.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FELocalizedLanguage.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A816E68A1CF32F0C00EB5335 /* FELocalizedLanaguageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FELocalizedLanaguageTests.m; sourceTree = "<group>"; };
 		A816E68C1CF32F0C00EB5335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A816E6911CF32F0D00EB5335 /* FELocalizedLanaguageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FELocalizedLanaguageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A816E6911CF32F0D00EB5335 /* FELocalizedLanguage.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FELocalizedLanguage.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A816E6951CF32F0D00EB5335 /* FELocalizedLanaguageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FELocalizedLanaguageUITests.m; sourceTree = "<group>"; };
 		A816E6971CF32F0D00EB5335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A816E6A31CF3338500EB5335 /* DetialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetialViewController.h; sourceTree = "<group>"; };
+		A816E6A41CF3338500EB5335 /* DetialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetialViewController.m; sourceTree = "<group>"; };
+		A816E6A91CF3340200EB5335 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A816E6AB1CF3341400EB5335 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A893F7751CF3F93D006750CA /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		A893F7761CF3F93D006750CA /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		A893F7781CF3FD32006750CA /* FELanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FELanguageManager.h; sourceTree = "<group>"; };
+		A893F7791CF3FD32006750CA /* FELanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FELanguageManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +103,9 @@
 		A816E66E1CF32F0C00EB5335 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A816E66D1CF32F0C00EB5335 /* FELocalizedLanaguage.app */,
-				A816E6861CF32F0C00EB5335 /* FELocalizedLanaguageTests.xctest */,
-				A816E6911CF32F0D00EB5335 /* FELocalizedLanaguageUITests.xctest */,
+				A816E66D1CF32F0C00EB5335 /* FELocalizedLanguage.app */,
+				A816E6861CF32F0C00EB5335 /* FELocalizedLanguage.xctest */,
+				A816E6911CF32F0D00EB5335 /* FELocalizedLanguage.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +122,13 @@
 				A816E67E1CF32F0C00EB5335 /* LaunchScreen.storyboard */,
 				A816E6811CF32F0C00EB5335 /* Info.plist */,
 				A816E6701CF32F0C00EB5335 /* Supporting Files */,
+				A816E6A31CF3338500EB5335 /* DetialViewController.h */,
+				A816E6A41CF3338500EB5335 /* DetialViewController.m */,
+				A816E6AA1CF3340200EB5335 /* Localizable.strings */,
+				A893F7751CF3F93D006750CA /* NSBundle+Language.h */,
+				A893F7761CF3F93D006750CA /* NSBundle+Language.m */,
+				A893F7781CF3FD32006750CA /* FELanguageManager.h */,
+				A893F7791CF3FD32006750CA /* FELanguageManager.m */,
 			);
 			path = FELocalizedLanaguage;
 			sourceTree = "<group>";
@@ -143,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A816E66C1CF32F0C00EB5335 /* FELocalizedLanaguage */ = {
+		A816E66C1CF32F0C00EB5335 /* FELocalizedLanguage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A816E69A1CF32F0D00EB5335 /* Build configuration list for PBXNativeTarget "FELocalizedLanaguage" */;
+			buildConfigurationList = A816E69A1CF32F0D00EB5335 /* Build configuration list for PBXNativeTarget "FELocalizedLanguage" */;
 			buildPhases = (
 				A816E6691CF32F0C00EB5335 /* Sources */,
 				A816E66A1CF32F0C00EB5335 /* Frameworks */,
@@ -155,14 +174,14 @@
 			);
 			dependencies = (
 			);
-			name = FELocalizedLanaguage;
+			name = FELocalizedLanguage;
 			productName = FELocalizedLanaguage;
-			productReference = A816E66D1CF32F0C00EB5335 /* FELocalizedLanaguage.app */;
+			productReference = A816E66D1CF32F0C00EB5335 /* FELocalizedLanguage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A816E6851CF32F0C00EB5335 /* FELocalizedLanaguageTests */ = {
+		A816E6851CF32F0C00EB5335 /* FELocalizedLanguageTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A816E69D1CF32F0D00EB5335 /* Build configuration list for PBXNativeTarget "FELocalizedLanaguageTests" */;
+			buildConfigurationList = A816E69D1CF32F0D00EB5335 /* Build configuration list for PBXNativeTarget "FELocalizedLanguageTests" */;
 			buildPhases = (
 				A816E6821CF32F0C00EB5335 /* Sources */,
 				A816E6831CF32F0C00EB5335 /* Frameworks */,
@@ -173,14 +192,14 @@
 			dependencies = (
 				A816E6881CF32F0C00EB5335 /* PBXTargetDependency */,
 			);
-			name = FELocalizedLanaguageTests;
+			name = FELocalizedLanguageTests;
 			productName = FELocalizedLanaguageTests;
-			productReference = A816E6861CF32F0C00EB5335 /* FELocalizedLanaguageTests.xctest */;
+			productReference = A816E6861CF32F0C00EB5335 /* FELocalizedLanguage.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A816E6901CF32F0D00EB5335 /* FELocalizedLanaguageUITests */ = {
+		A816E6901CF32F0D00EB5335 /* FELocalizedLanguageUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A816E6A01CF32F0D00EB5335 /* Build configuration list for PBXNativeTarget "FELocalizedLanaguageUITests" */;
+			buildConfigurationList = A816E6A01CF32F0D00EB5335 /* Build configuration list for PBXNativeTarget "FELocalizedLanguageUITests" */;
 			buildPhases = (
 				A816E68D1CF32F0D00EB5335 /* Sources */,
 				A816E68E1CF32F0D00EB5335 /* Frameworks */,
@@ -191,9 +210,9 @@
 			dependencies = (
 				A816E6931CF32F0D00EB5335 /* PBXTargetDependency */,
 			);
-			name = FELocalizedLanaguageUITests;
+			name = FELocalizedLanguageUITests;
 			productName = FELocalizedLanaguageUITests;
-			productReference = A816E6911CF32F0D00EB5335 /* FELocalizedLanaguageUITests.xctest */;
+			productReference = A816E6911CF32F0D00EB5335 /* FELocalizedLanguage.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,22 +237,23 @@
 					};
 				};
 			};
-			buildConfigurationList = A816E6681CF32F0C00EB5335 /* Build configuration list for PBXProject "FELocalizedLanaguage" */;
+			buildConfigurationList = A816E6681CF32F0C00EB5335 /* Build configuration list for PBXProject "FELocalizedLanguage" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = A816E6641CF32F0C00EB5335;
 			productRefGroup = A816E66E1CF32F0C00EB5335 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A816E66C1CF32F0C00EB5335 /* FELocalizedLanaguage */,
-				A816E6851CF32F0C00EB5335 /* FELocalizedLanaguageTests */,
-				A816E6901CF32F0D00EB5335 /* FELocalizedLanaguageUITests */,
+				A816E66C1CF32F0C00EB5335 /* FELocalizedLanguage */,
+				A816E6851CF32F0C00EB5335 /* FELocalizedLanguageTests */,
+				A816E6901CF32F0D00EB5335 /* FELocalizedLanguageUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A816E6801CF32F0C00EB5335 /* LaunchScreen.storyboard in Resources */,
+				A816E6A81CF3340200EB5335 /* Localizable.strings in Resources */,
 				A816E67D1CF32F0C00EB5335 /* Assets.xcassets in Resources */,
 				A816E67B1CF32F0C00EB5335 /* Main.storyboard in Resources */,
 			);
@@ -271,8 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A816E6781CF32F0C00EB5335 /* ViewController.m in Sources */,
+				A893F7771CF3F93D006750CA /* NSBundle+Language.m in Sources */,
 				A816E6751CF32F0C00EB5335 /* AppDelegate.m in Sources */,
 				A816E6721CF32F0C00EB5335 /* main.m in Sources */,
+				A893F77A1CF3FD32006750CA /* FELanguageManager.m in Sources */,
+				A816E6A51CF3338500EB5335 /* DetialViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +321,12 @@
 /* Begin PBXTargetDependency section */
 		A816E6881CF32F0C00EB5335 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A816E66C1CF32F0C00EB5335 /* FELocalizedLanaguage */;
+			target = A816E66C1CF32F0C00EB5335 /* FELocalizedLanguage */;
 			targetProxy = A816E6871CF32F0C00EB5335 /* PBXContainerItemProxy */;
 		};
 		A816E6931CF32F0D00EB5335 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A816E66C1CF32F0C00EB5335 /* FELocalizedLanaguage */;
+			target = A816E66C1CF32F0C00EB5335 /* FELocalizedLanguage */;
 			targetProxy = A816E6921CF32F0D00EB5335 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -322,6 +346,15 @@
 				A816E67F1CF32F0C00EB5335 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A816E6AA1CF3340200EB5335 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A816E6A91CF3340200EB5335 /* en */,
+				A816E6AB1CF3341400EB5335 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -364,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -414,9 +447,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FELocalizedLanaguage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FELocalizedLanaguage;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FELocalizedLanguage;
 			};
 			name = Debug;
 		};
@@ -425,9 +459,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FELocalizedLanaguage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FELocalizedLanaguage;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FELocalizedLanguage;
 			};
 			name = Release;
 		};
@@ -438,8 +473,8 @@
 				INFOPLIST_FILE = FELocalizedLanaguageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FELocalizedLanaguageTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FELocalizedLanaguage.app/FELocalizedLanaguage";
+				PRODUCT_NAME = FELocalizedLanguage;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FELocalizedLanguage.app/FELocalizedLanguage";
 			};
 			name = Debug;
 		};
@@ -450,8 +485,8 @@
 				INFOPLIST_FILE = FELocalizedLanaguageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FELocalizedLanaguageTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FELocalizedLanaguage.app/FELocalizedLanaguage";
+				PRODUCT_NAME = FELocalizedLanguage;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FELocalizedLanguage.app/FELocalizedLanguage";
 			};
 			name = Release;
 		};
@@ -461,7 +496,7 @@
 				INFOPLIST_FILE = FELocalizedLanaguageUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FELocalizedLanaguageUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FELocalizedLanguage;
 				TEST_TARGET_NAME = FELocalizedLanaguage;
 			};
 			name = Debug;
@@ -472,7 +507,7 @@
 				INFOPLIST_FILE = FELocalizedLanaguageUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FELocalizedLanaguageUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FELocalizedLanguage;
 				TEST_TARGET_NAME = FELocalizedLanaguage;
 			};
 			name = Release;
@@ -480,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A816E6681CF32F0C00EB5335 /* Build configuration list for PBXProject "FELocalizedLanaguage" */ = {
+		A816E6681CF32F0C00EB5335 /* Build configuration list for PBXProject "FELocalizedLanguage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A816E6981CF32F0D00EB5335 /* Debug */,
@@ -489,29 +524,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A816E69A1CF32F0D00EB5335 /* Build configuration list for PBXNativeTarget "FELocalizedLanaguage" */ = {
+		A816E69A1CF32F0D00EB5335 /* Build configuration list for PBXNativeTarget "FELocalizedLanguage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A816E69B1CF32F0D00EB5335 /* Debug */,
 				A816E69C1CF32F0D00EB5335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A816E69D1CF32F0D00EB5335 /* Build configuration list for PBXNativeTarget "FELocalizedLanaguageTests" */ = {
+		A816E69D1CF32F0D00EB5335 /* Build configuration list for PBXNativeTarget "FELocalizedLanguageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A816E69E1CF32F0D00EB5335 /* Debug */,
 				A816E69F1CF32F0D00EB5335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A816E6A01CF32F0D00EB5335 /* Build configuration list for PBXNativeTarget "FELocalizedLanaguageUITests" */ = {
+		A816E6A01CF32F0D00EB5335 /* Build configuration list for PBXNativeTarget "FELocalizedLanguageUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A816E6A11CF32F0D00EB5335 /* Debug */,
 				A816E6A21CF32F0D00EB5335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

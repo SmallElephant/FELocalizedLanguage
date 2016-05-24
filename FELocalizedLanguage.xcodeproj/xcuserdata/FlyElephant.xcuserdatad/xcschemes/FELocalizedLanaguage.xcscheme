@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A816E66C1CF32F0C00EB5335"
-               BuildableName = "FELocalizedLanaguage.app"
-               BlueprintName = "FELocalizedLanaguage"
-               ReferencedContainer = "container:FELocalizedLanaguage.xcodeproj">
+               BuildableName = "FELocalizedLanguage.app"
+               BlueprintName = "FELocalizedLanguage"
+               ReferencedContainer = "container:FELocalizedLanguage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A816E6851CF32F0C00EB5335"
-               BuildableName = "FELocalizedLanaguageTests.xctest"
-               BlueprintName = "FELocalizedLanaguageTests"
-               ReferencedContainer = "container:FELocalizedLanaguage.xcodeproj">
+               BuildableName = "FELocalizedLanguage.xctest"
+               BlueprintName = "FELocalizedLanguageTests"
+               ReferencedContainer = "container:FELocalizedLanguage.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A816E6901CF32F0D00EB5335"
-               BuildableName = "FELocalizedLanaguageUITests.xctest"
-               BlueprintName = "FELocalizedLanaguageUITests"
-               ReferencedContainer = "container:FELocalizedLanaguage.xcodeproj">
+               BuildableName = "FELocalizedLanguage.xctest"
+               BlueprintName = "FELocalizedLanguageUITests"
+               ReferencedContainer = "container:FELocalizedLanguage.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A816E66C1CF32F0C00EB5335"
-            BuildableName = "FELocalizedLanaguage.app"
-            BlueprintName = "FELocalizedLanaguage"
-            ReferencedContainer = "container:FELocalizedLanaguage.xcodeproj">
+            BuildableName = "FELocalizedLanguage.app"
+            BlueprintName = "FELocalizedLanguage"
+            ReferencedContainer = "container:FELocalizedLanguage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A816E66C1CF32F0C00EB5335"
-            BuildableName = "FELocalizedLanaguage.app"
-            BlueprintName = "FELocalizedLanaguage"
-            ReferencedContainer = "container:FELocalizedLanaguage.xcodeproj">
+            BuildableName = "FELocalizedLanguage.app"
+            BlueprintName = "FELocalizedLanguage"
+            ReferencedContainer = "container:FELocalizedLanguage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A816E66C1CF32F0C00EB5335"
-            BuildableName = "FELocalizedLanaguage.app"
-            BlueprintName = "FELocalizedLanaguage"
-            ReferencedContainer = "container:FELocalizedLanaguage.xcodeproj">
+            BuildableName = "FELocalizedLanguage.app"
+            BlueprintName = "FELocalizedLanguage"
+            ReferencedContainer = "container:FELocalizedLanguage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
